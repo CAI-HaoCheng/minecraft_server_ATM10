@@ -1,0 +1,1 @@
+-XX:MaxRAMPercentage=75 -Xmx20G -Xms4G

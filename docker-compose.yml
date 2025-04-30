@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  # 伺服器服務
+  mc:
+    image: itzg/minecraft-server
+    container_name: "ATM10"
+    tty: true
+    stdin_open: true
+    ports:
+      - "36676:25565"
+    environment:
+      TYPE: AUTO_CURSEFORGE
+      CF_API_KEY: "$$2a$$10$$UY8j7gjiMGGUvVceUMK6serUkOwF.8jYEVfFbt9v02HkzQ0bp/uvm"
+      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/6427275"
+      DEBUG: "true"
+      INIT_MEMORY: "4G"
+      MAX_MEMORY: "20G"
+      VERSION: "1.21.1"
+      # 設定JVM啟動參數，設定最多使用75% RAM
+      JVM_XX_OPTS: "-XX:MaxRAMPercentage=75"
+      # 自動同意伺服器的EULA
+      EULA: "TRUE"
+    volumes:
+      # 在目前的目錄新增存放資料的目錄
+      - ./data:/data
