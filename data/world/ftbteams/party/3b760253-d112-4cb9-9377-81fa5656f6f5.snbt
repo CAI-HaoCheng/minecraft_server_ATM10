@@ -1,0 +1,40 @@
+{
+	id: "3b760253-d112-4cb9-9377-81fa5656f6f5"
+	type: "party"
+	owner: "b437c09e-75f4-49ee-9b3d-15a6e8befa15"
+	ranks: {
+		b437c09e-75f4-49ee-9b3d-15a6e8befa15: "owner"
+		b187f3ef-c540-46e0-b4f2-1dd419b0186a: "officer"
+		6cc821cd-e333-4246-81cd-07bc52105d24: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Dungeon Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#9559FF"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 0b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1746109251042L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"Anchon_Yu\"],\"color\":\"yellow\"}" }
+		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746109251060L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"HiddenMW\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1746109256459L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"HiddenMW\"],\"color\":\"green\"}" }
+		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746109302498L, text: "{\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"text\":\"HiddenMW\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "b187f3ef-c540-46e0-b4f2-1dd419b0186a", date: 1746110540555L, text: "{\"translate\":\"ftbteams.message.remove_ally\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"gold\"}" }
+		{ from: "b187f3ef-c540-46e0-b4f2-1dd419b0186a", date: 1746110544109L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746110575241L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1746110612895L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"darkhome\"],\"color\":\"green\"}" }
+	]
+	extra: { }
+}

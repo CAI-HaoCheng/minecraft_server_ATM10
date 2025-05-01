@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "b187f3ef-c540-46e0-b4f2-1dd419b0186a",
+    "name": "HiddenMW",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6cc821cd-e333-4246-81cd-07bc52105d24",
+    "name": "darkhome",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b437c09e-75f4-49ee-9b3d-15a6e8befa15",
+    "name": "Anchon_Yu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
