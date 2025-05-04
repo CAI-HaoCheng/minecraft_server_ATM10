@@ -112,6 +112,7 @@
     "criteria": {
       "mycotoxic_undergrowth": "2025-05-01 05:33:23 +0000",
       "bayou": "2025-04-30 15:21:36 +0000",
+      "blackstone_basin": "2025-05-03 10:59:51 +0000",
       "temperate_grove": "2025-04-30 15:22:42 +0000",
       "towering_cliffs": "2025-04-30 15:23:13 +0000",
       "shrubland": "2025-04-30 16:11:29 +0000",
@@ -468,6 +469,7 @@
   "regions_unexplored:got_wood": {
     "criteria": {
       "cypress_log": "2025-05-01 02:17:42 +0000",
+      "brimwood_log": "2025-05-03 11:01:54 +0000",
       "willow_log": "2025-05-01 03:11:30 +0000"
     },
     "done": false
@@ -672,6 +674,7 @@
   "regions_unexplored:eternal_expedition": {
     "criteria": {
       "mycotoxic_undergrowth": "2025-05-01 05:33:23 +0000",
+      "blackstone_basin": "2025-05-03 10:59:51 +0000",
       "infernal_holt": "2025-05-01 05:33:27 +0000",
       "glistering_meadow": "2025-05-01 07:53:48 +0000"
     },
@@ -933,6 +936,96 @@
   "create:encased_fan": {
     "criteria": {
       "0": "2025-05-01 16:19:08 +0000"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-05-02 14:49:24 +0000"
+    },
+    "done": true
+  },
+  "create:glass_pipe": {
+    "criteria": {
+      "0": "2025-05-03 05:45:58 +0000"
+    },
+    "done": true
+  },
+  "create:arm_blaze_burner": {
+    "criteria": {
+      "0": "2025-05-03 05:55:56 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_arm": {
+    "criteria": {
+      "0": "2025-05-03 05:56:02 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:summon_skeleton_horse": {
+    "criteria": {
+      "summon_skeleton_horse": "2025-05-03 11:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-05-03 11:02:59 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:magebloom_crop": {
+    "criteria": {
+      "has_magebloom_crop": "2025-05-03 14:10:04 +0000"
+    },
+    "done": true
+  },
+  "create:arm_many_targets": {
+    "criteria": {
+      "0": "2025-05-03 14:12:23 +0000"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2025-05-03 14:17:05 +0000"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2025-05-03 15:12:17 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2025-05-03 15:33:49 +0000"
+    },
+    "done": true
+  },
+  "mekanism:fluid_tank": {
+    "criteria": {
+      "basic_fluid_tank": "2025-05-03 16:49:29 +0000"
+    },
+    "done": true
+  },
+  "create:crusher_maxed_0000": {
+    "criteria": {
+      "0": "2025-05-04 05:52:39 +0000"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2025-05-04 05:54:56 +0000"
+    },
+    "done": true
+  },
+  "railcraft:tracks/regular_track": {
+    "criteria": {
+      "inv_changed": "2025-05-04 14:31:12 +0000"
     },
     "done": true
   },

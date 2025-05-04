@@ -5,7 +5,7 @@
 	ranks: {
 		b437c09e-75f4-49ee-9b3d-15a6e8befa15: "owner"
 		b187f3ef-c540-46e0-b4f2-1dd419b0186a: "officer"
-		6cc821cd-e333-4246-81cd-07bc52105d24: "member"
+		6cc821cd-e333-4246-81cd-07bc52105d24: "officer"
 	}
 	properties: {
 		"ftbteams:display_name": "Dungeon Party"
@@ -35,6 +35,9 @@
 		{ from: "b187f3ef-c540-46e0-b4f2-1dd419b0186a", date: 1746110544109L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
 		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746110575241L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1746110612895L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"darkhome\"],\"color\":\"green\"}" }
+		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746289062046L, text: "{\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746289071388L, text: "{\"translate\":\"ftbteams.message.demoted\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"gold\"}" }
+		{ from: "b437c09e-75f4-49ee-9b3d-15a6e8befa15", date: 1746289075185L, text: "{\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"text\":\"darkhome\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
 	]
 	extra: { }
 }

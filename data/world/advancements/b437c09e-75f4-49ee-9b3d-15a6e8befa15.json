@@ -110,15 +110,22 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "mycotoxic_undergrowth": "2025-05-04 08:03:15 +0000",
       "bayou": "2025-05-01 11:34:49 +0000",
-      "temperate_grove": "2025-05-01 15:43:50 +0000"
+      "temperate_grove": "2025-05-01 15:43:50 +0000",
+      "towering_cliffs": "2025-05-03 11:07:23 +0000",
+      "shrubland": "2025-05-04 05:15:43 +0000",
+      "prismachasm": "2025-05-03 11:10:55 +0000",
+      "infernal_holt": "2025-05-04 08:03:47 +0000"
     },
     "done": false
   },
   "regions_unexplored:pioneer": {
     "criteria": {
       "bayou": "2025-05-01 11:34:49 +0000",
-      "temperate_grove": "2025-05-01 15:43:50 +0000"
+      "temperate_grove": "2025-05-01 15:43:50 +0000",
+      "towering_cliffs": "2025-05-03 11:07:23 +0000",
+      "shrubland": "2025-05-04 05:15:43 +0000"
     },
     "done": false
   },
@@ -288,7 +295,8 @@
   },
   "regions_unexplored:got_wood": {
     "criteria": {
-      "cypress_log": "2025-05-01 14:33:03 +0000"
+      "cypress_log": "2025-05-01 14:33:03 +0000",
+      "willow_log": "2025-05-03 15:13:19 +0000"
     },
     "done": false
   },
@@ -366,7 +374,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-05-04 05:56:41 +0000",
       "apple": "2025-05-01 15:43:13 +0000",
+      "bread": "2025-05-03 09:41:53 +0000",
       "cooked_mutton": "2025-05-01 15:27:15 +0000"
     },
     "done": false
@@ -469,7 +479,9 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "wheat": "2025-05-01 15:40:02 +0000"
+      "sugar_cane": "2025-05-04 15:02:45 +0000",
+      "wheat": "2025-05-01 15:40:02 +0000",
+      "melon": "2025-05-04 05:56:52 +0000"
     },
     "done": false
   },
@@ -494,6 +506,282 @@
   "mekanismtools:alternate_armor": {
     "criteria": {
       "armor": "2025-05-01 15:43:56 +0000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2025-05-03 09:35:26 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2025-05-03 09:35:26 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2025-05-03 09:36:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-05-03 09:37:34 +0000",
+      "minecraft:windswept_hills": "2025-05-04 05:15:54 +0000",
+      "minecraft:windswept_savanna": "2025-05-04 05:16:36 +0000"
+    },
+    "done": false
+  },
+  "immersiveengineering:main/mb_cokeoven": {
+    "criteria": {
+      "form_multiblock": "2025-05-03 09:43:46 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:spelunker": {
+    "criteria": {
+      "prismachasm": "2025-05-03 11:10:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-05-03 13:55:54 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:ritual_brazier": {
+    "criteria": {
+      "has_ritual_brazier": "2025-05-03 14:00:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-05-03 14:02:23 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:enchanting_apparatus": {
+    "criteria": {
+      "has_enchanting_apparatus": "2025-05-03 14:03:27 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:magebloom_crop": {
+    "criteria": {
+      "has_magebloom_crop": "2025-05-03 14:05:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-05-03 14:11:49 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/charger": {
+    "criteria": {
+      "certus": "2025-05-04 05:11:50 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/compass": {
+    "criteria": {
+      "compass": "2025-05-04 05:14:41 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
+    "criteria": {
+      "biomeswevegone:cypress_swamplands": "2025-05-04 05:15:55 +0000"
+    },
+    "done": false
+  },
+  "biomeswevegone:biomeswevegone/adventure/root": {
+    "criteria": {
+      "biomeswevegone:cypress_swamplands": "2025-05-04 05:15:55 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/presses": {
+    "criteria": {
+      "calculation": "2025-05-04 05:17:11 +0000",
+      "silicon": "2025-05-04 05:17:11 +0000",
+      "engineering": "2025-05-04 05:17:11 +0000",
+      "logic": "2025-05-04 05:17:11 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:heat_generator": {
+    "criteria": {
+      "heat_generator": "2025-05-04 05:31:52 +0000"
+    },
+    "done": true
+  },
+  "mekanism:metallurgic_infuser": {
+    "criteria": {
+      "metallurgic_infuser": "2025-05-04 05:33:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-05-04 05:34:42 +0000"
+    },
+    "done": true
+  },
+  "mekanism:basic_control_circuit": {
+    "criteria": {
+      "basic_control_circuit": "2025-05-04 05:38:28 +0000"
+    },
+    "done": true
+  },
+  "mekanism:steel_casing": {
+    "criteria": {
+      "steel_casing": "2025-05-04 05:40:38 +0000"
+    },
+    "done": true
+  },
+  "mekanism:enricher": {
+    "criteria": {
+      "enrichment_chamber": "2025-05-04 05:40:51 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_transport": {
+    "criteria": {
+      "basic_universal_cable": "2025-05-04 05:41:51 +0000"
+    },
+    "done": true
+  },
+  "mekanism:infusing_efficiency": {
+    "criteria": {
+      "enriched_material": "2025-05-04 05:51:37 +0000"
+    },
+    "done": true
+  },
+  "mekanism:fluid_tank": {
+    "criteria": {
+      "basic_fluid_tank": "2025-05-04 07:22:19 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/creosote": {
+    "criteria": {
+      "has_item": "2025-05-04 07:25:42 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_treatedwood": {
+    "criteria": {
+      "has_item": "2025-05-04 07:26:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-04 07:42:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-04 08:03:15 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "mycotoxic_undergrowth": "2025-05-04 08:03:15 +0000",
+      "infernal_holt": "2025-05-04 08:03:47 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-04 08:03:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2025-05-04 08:03:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_fortress": "2025-05-04 08:03:30 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:apprentice_spell_book": {
+    "criteria": {
+      "has_apprentice_spell_book": "2025-05-04 08:05:42 +0000"
+    },
+    "done": true
+  },
+  "mekanism:infused_alloy": {
+    "criteria": {
+      "alloy_infused": "2025-05-04 08:08:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-05-04 13:41:03 +0000"
+    },
+    "done": false
+  },
+  "immersiveengineering:multiblocks/mb_improvedblastfurnace": {
+    "criteria": {
+      "form_multiblock": "2025-05-04 14:53:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-04 14:50:34 +0000"
+    },
+    "done": true
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2025-05-04 14:56:51 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/charged_quartz": {
+    "criteria": {
+      "certus": "2025-05-04 15:22:06 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2025-05-04 14:51:41 +0000"
+    },
+    "done": true
+  },
+  "mekanism:fluid_transport": {
+    "criteria": {
+      "basic_mechanical_pipe": "2025-05-04 14:56:55 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:tools/tools_root": {
+    "criteria": {
+      "has_item": "2025-05-04 14:59:26 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_workbench": {
+    "criteria": {
+      "has_item": "2025-05-04 14:59:26 +0000"
     },
     "done": true
   },
