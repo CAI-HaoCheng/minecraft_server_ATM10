@@ -264,6 +264,7 @@
       "bread": "2025-04-30 15:54:02 +0000",
       "rotten_flesh": "2025-04-30 15:51:55 +0000",
       "cooked_mutton": "2025-05-01 11:44:12 +0000",
+      "cooked_cod": "2025-05-05 15:04:36 +0000",
       "cooked_beef": "2025-05-04 08:38:55 +0000"
     },
     "done": false
@@ -502,6 +503,8 @@
       "minecraft:old_growth_birch_forest": "2025-05-01 08:21:36 +0000",
       "minecraft:dark_forest": "2025-05-01 08:21:07 +0000",
       "minecraft:taiga": "2025-05-01 11:30:37 +0000",
+      "minecraft:ocean": "2025-05-05 14:48:15 +0000",
+      "minecraft:deep_ocean": "2025-05-05 14:49:26 +0000",
       "minecraft:river": "2025-05-01 08:07:57 +0000",
       "minecraft:swamp": "2025-05-01 12:27:18 +0000",
       "minecraft:meadow": "2025-05-01 11:44:57 +0000",
@@ -731,6 +734,72 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-05-04 07:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-04 07:14:35 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:mycologist": {
+    "criteria": {
+      "yellow_bioshroom": "2025-05-04 07:19:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-05-04 07:21:04 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-05-04 07:28:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-05-04 07:28:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipe/enchanted_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-05-04 07:28:47 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:apprentice_spell_book": {
+    "criteria": {
+      "has_apprentice_spell_book": "2025-05-04 07:31:43 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-05-04 08:39:08 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2025-05-04 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
+    "criteria": {
+      "requirement": "2025-05-04 09:13:28 +0000"
+    },
+    "done": true
+  },
   "tombstone:recipe/dust_of_frost": {
     "criteria": {
       "has_ingredient": "2025-05-04 09:18:59 +0000"
@@ -743,21 +812,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-05-04 07:21:04 +0000"
-    },
-    "done": true
-  },
   "tombstone:recipe/bone_needle": {
     "criteria": {
       "has_ingredient": "2025-05-04 09:18:59 +0000"
-    },
-    "done": true
-  },
-  "ars_nouveau:apprentice_spell_book": {
-    "criteria": {
-      "has_apprentice_spell_book": "2025-05-04 07:31:43 +0000"
     },
     "done": true
   },
@@ -791,39 +848,9 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-05-04 07:14:19 +0000"
-    },
-    "done": true
-  },
   "tombstone:recipe/grave_plate": {
     "criteria": {
       "has_ingredient": "2025-05-04 09:18:59 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_grave": {
-    "criteria": {
-      "coded_trigger": "2025-05-04 07:28:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-05-04 07:14:35 +0000"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
-    "criteria": {
-      "requirement": "2025-05-04 09:13:28 +0000"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
-    "criteria": {
-      "requirement": "2025-05-04 09:13:13 +0000"
     },
     "done": true
   },
@@ -845,35 +872,29 @@
     },
     "done": true
   },
-  "tombstone:recipe/enchanted_grave_key": {
-    "criteria": {
-      "has_ingredient": "2025-05-04 07:28:47 +0000"
-    },
-    "done": true
-  },
   "tombstone:recipe/impregnated_diamond": {
     "criteria": {
       "has_ingredient": "2025-05-04 09:18:59 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/strong_or_careful": {
+  "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
-      "coded_trigger": "2025-05-04 07:28:46 +0000"
+      "coded_trigger": "2025-05-05 15:05:25 +0000"
     },
     "done": true
   },
-  "twilightforest:root": {
+  "tombstone:adventure/chain_death": {
     "criteria": {
-      "in_tf": "2025-05-04 08:39:08 +0000"
+      "coded_trigger": "2025-05-05 15:05:26 +0000"
     },
     "done": true
   },
-  "regions_unexplored:mycologist": {
+  "tombstone:adventure/bone_crusher": {
     "criteria": {
-      "yellow_bioshroom": "2025-05-04 07:19:13 +0000"
+      "coded_trigger": "2025-05-05 14:54:40 +0000"
     },
-    "done": false
+    "done": true
   },
   "DataVersion": 3955
 }

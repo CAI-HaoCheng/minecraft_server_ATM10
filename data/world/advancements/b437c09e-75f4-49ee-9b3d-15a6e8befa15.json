@@ -737,33 +737,27 @@
     },
     "done": false
   },
-  "immersiveengineering:multiblocks/mb_improvedblastfurnace": {
-    "criteria": {
-      "form_multiblock": "2025-05-04 14:53:44 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2025-05-04 14:50:34 +0000"
     },
     "done": true
   },
-  "mekanism:configurator": {
-    "criteria": {
-      "configurator": "2025-05-04 14:56:51 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/charged_quartz": {
-    "criteria": {
-      "certus": "2025-05-04 15:22:06 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:main/use_cutting_board": {
     "criteria": {
       "cutting_board": "2025-05-04 14:51:41 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:multiblocks/mb_improvedblastfurnace": {
+    "criteria": {
+      "form_multiblock": "2025-05-04 14:53:44 +0000"
+    },
+    "done": true
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2025-05-04 14:56:51 +0000"
     },
     "done": true
   },
@@ -782,6 +776,18 @@
   "immersiveengineering:main/craft_workbench": {
     "criteria": {
       "has_item": "2025-05-04 14:59:26 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/charged_quartz": {
+    "criteria": {
+      "certus": "2025-05-04 15:22:06 +0000"
+    },
+    "done": true
+  },
+  "mekanism:sawmill": {
+    "criteria": {
+      "precision_sawmill": "2025-05-05 14:35:28 +0000"
     },
     "done": true
   },
