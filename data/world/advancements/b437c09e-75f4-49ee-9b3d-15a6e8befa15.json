@@ -791,5 +791,35 @@
     },
     "done": true
   },
+  "mekanism:purification_chamber": {
+    "criteria": {
+      "purification_chamber": "2025-05-06 16:03:08 +0000"
+    },
+    "done": true
+  },
+  "mekanism:chemical_tank": {
+    "criteria": {
+      "basic_chemical_tank": "2025-05-06 15:58:17 +0000"
+    },
+    "done": true
+  },
+  "mekanism:item_transport": {
+    "criteria": {
+      "basic_logistical_transporter": "2025-05-06 15:03:52 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_cube": {
+    "criteria": {
+      "basic_energy_cube": "2025-05-06 16:07:49 +0000"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2025-05-06 16:03:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
