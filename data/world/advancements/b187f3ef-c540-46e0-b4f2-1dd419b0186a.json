@@ -578,6 +578,9 @@
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
       "biomeswevegone:cypress_swamplands": "2025-05-01 12:11:44 +0000",
+      "biomeswevegone:rose_fields": "2025-05-07 15:11:33 +0000",
+      "biomeswevegone:basalt_barrera": "2025-05-07 15:08:06 +0000",
+      "biomeswevegone:temperate_grove": "2025-05-07 15:11:12 +0000",
       "biomeswevegone:allium_shrubland": "2025-05-01 12:12:29 +0000",
       "biomeswevegone:aspen_boreal": "2025-05-01 12:12:32 +0000",
       "biomeswevegone:bayou": "2025-05-01 12:37:17 +0000"
@@ -878,6 +881,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2025-05-05 14:54:40 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2025-05-05 15:05:25 +0000"
@@ -887,12 +896,6 @@
   "tombstone:adventure/chain_death": {
     "criteria": {
       "coded_trigger": "2025-05-05 15:05:26 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/bone_crusher": {
-    "criteria": {
-      "coded_trigger": "2025-05-05 14:54:40 +0000"
     },
     "done": true
   },
