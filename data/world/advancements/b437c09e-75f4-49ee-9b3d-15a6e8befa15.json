@@ -821,5 +821,17 @@
     },
     "done": true
   },
+  "mekanism:factory": {
+    "criteria": {
+      "tier_installer": "2025-05-08 14:36:58 +0000"
+    },
+    "done": true
+  },
+  "mekanism:installer": {
+    "criteria": {
+      "installer": "2025-05-08 14:36:38 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

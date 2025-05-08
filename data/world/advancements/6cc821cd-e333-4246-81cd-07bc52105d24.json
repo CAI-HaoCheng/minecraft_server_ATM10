@@ -1043,15 +1043,15 @@
     },
     "done": true
   },
-  "create:extendo_grip": {
+  "tombstone:adventure/bone_crusher": {
     "criteria": {
-      "0": "2025-05-07 14:54:02 +0000"
+      "coded_trigger": "2025-05-07 14:40:05 +0000"
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/ink_root": {
+  "tombstone:adventure/ambush": {
     "criteria": {
-      "requirement": "2025-05-07 15:13:27 +0000"
+      "coded_trigger": "2025-05-07 14:43:23 +0000"
     },
     "done": true
   },
@@ -1067,9 +1067,15 @@
     },
     "done": true
   },
-  "tombstone:adventure/ambush": {
+  "create:extendo_grip": {
     "criteria": {
-      "coded_trigger": "2025-05-07 14:43:23 +0000"
+      "0": "2025-05-07 14:54:02 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2025-05-07 15:13:27 +0000"
     },
     "done": true
   },
@@ -1079,9 +1085,33 @@
     },
     "done": false
   },
-  "tombstone:adventure/bone_crusher": {
+  "create:hose_pulley_lava": {
     "criteria": {
-      "coded_trigger": "2025-05-07 14:40:05 +0000"
+      "0": "2025-05-08 14:33:58 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2025-05-08 14:54:58 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2025-05-08 14:54:58 +0000"
+    },
+    "done": true
+  },
+  "create:hose_pulley": {
+    "criteria": {
+      "0": "2025-05-08 14:33:58 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2025-05-08 14:54:58 +0000"
     },
     "done": true
   },

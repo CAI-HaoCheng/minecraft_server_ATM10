@@ -500,17 +500,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-05-01 08:21:36 +0000",
+      "minecraft:beach": "2025-05-08 14:57:06 +0000",
       "minecraft:dark_forest": "2025-05-01 08:21:07 +0000",
+      "minecraft:forest": "2025-05-08 14:59:33 +0000",
       "minecraft:taiga": "2025-05-01 11:30:37 +0000",
-      "minecraft:ocean": "2025-05-05 14:48:15 +0000",
       "minecraft:deep_ocean": "2025-05-05 14:49:26 +0000",
       "minecraft:river": "2025-05-01 08:07:57 +0000",
+      "minecraft:dripstone_caves": "2025-05-01 11:44:59 +0000",
+      "minecraft:old_growth_birch_forest": "2025-05-01 08:21:36 +0000",
+      "minecraft:ocean": "2025-05-05 14:48:15 +0000",
       "minecraft:swamp": "2025-05-01 12:27:18 +0000",
       "minecraft:meadow": "2025-05-01 11:44:57 +0000",
       "minecraft:birch_forest": "2025-05-01 08:17:10 +0000",
       "minecraft:windswept_hills": "2025-05-01 12:11:42 +0000",
-      "minecraft:dripstone_caves": "2025-05-01 11:44:59 +0000",
       "minecraft:plains": "2025-05-03 14:47:11 +0000"
     },
     "done": false
@@ -896,6 +898,30 @@
   "tombstone:adventure/chain_death": {
     "criteria": {
       "coded_trigger": "2025-05-05 15:05:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2025-05-08 14:23:14 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-08 14:34:46 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:warp_scroll": {
+    "criteria": {
+      "has_warp_scroll": "2025-05-08 14:22:50 +0000"
+    },
+    "done": true
+  },
+  "silentgear:blaze_gold": {
+    "criteria": {
+      "get_item": "2025-05-08 14:22:54 +0000"
     },
     "done": true
   },
