@@ -179,12 +179,6 @@
     },
     "done": true
   },
-  "interdimensionalwirelesstransmitter:interdimensional_wireless_transmitter": {
-    "criteria": {
-      "interdimensional_wireless_transmitter": "2025-05-01 11:37:14 +0000"
-    },
-    "done": true
-  },
   "ae2wtlib:recipe/wireless_universal_terminal/ae": {
     "criteria": {
       "has_wit": "2025-05-01 11:37:14 +0000",
@@ -233,12 +227,6 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-05-01 14:26:05 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:progression/root": {
-    "criteria": {
-      "affixed": "2025-05-01 14:26:15 +0000"
     },
     "done": true
   },
@@ -821,15 +809,27 @@
     },
     "done": true
   },
+  "mekanism:installer": {
+    "criteria": {
+      "installer": "2025-05-08 14:36:38 +0000"
+    },
+    "done": true
+  },
   "mekanism:factory": {
     "criteria": {
       "tier_installer": "2025-05-08 14:36:58 +0000"
     },
     "done": true
   },
-  "mekanism:installer": {
+  "apotheosis:progression/root": {
     "criteria": {
-      "installer": "2025-05-08 14:36:38 +0000"
+      "tick": "2025-05-09 09:00:51 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2025-05-09 09:00:51 +0000"
     },
     "done": true
   },

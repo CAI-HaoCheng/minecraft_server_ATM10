@@ -12,7 +12,8 @@ services:
     environment:
       TYPE: AUTO_CURSEFORGE
       CF_API_KEY: "$$2a$$10$$UY8j7gjiMGGUvVceUMK6serUkOwF.8jYEVfFbt9v02HkzQ0bp/uvm"
-      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/6427275"
+      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/6502777"
+      CF_EXCLUDE_MODS: "1133580"
       DEBUG: "true"
       INIT_MEMORY: "4G"
       MAX_MEMORY: "20G"

@@ -46,6 +46,7 @@ export interface Operations {
   blockBreakSound: (arg0: ValueBlock) => string;
   operatorReduce: (arg0: Function, arg1: any[], arg2: any) => any;
   ingredientsWithFluid: (arg0: ValueIngredients, arg1: number, arg2: ValueFluidstack) => ValueIngredients;
+  blockTags: (arg0: ValueBlock) => any[];
   stringParseAsDouble: (arg0: string) => number;
   nbtWithFloat: (arg0: Record<string, any>, arg1: string, arg2: number) => Record<string, any>;
   numberModulus: (arg0: number, arg1: number) => number;
@@ -88,6 +89,7 @@ export interface Operations {
   numberRound: (arg0: number) => number;
   entityFluids: (arg0: ValueEntity) => any[];
   fluidstackIsLighterThanAir: (arg0: ValueFluidstack) => boolean;
+  listEquals_set: (arg0: any[], arg1: any[]) => boolean;
   entityMounted: (arg0: ValueEntity) => any[];
   stringParseAsLong: (arg0: string) => number;
   nbtHasKey: (arg0: Record<string, any>, arg1: string) => boolean;
@@ -151,6 +153,7 @@ export interface Operations {
   booleanNor: (arg0: boolean, arg1: boolean) => boolean;
   operatorApply3: (arg0: Function, arg1: any, arg2: any, arg3: any) => any;
   booleanNot: (arg0: boolean) => boolean;
+  doubleSqrt: (arg0: number) => number;
   operatorApply2: (arg0: Function, arg1: any, arg2: any) => any;
   itemstackCanBurn: (arg0: ValueItemstack) => boolean;
   integerRightShift: (arg0: number, arg1: number) => number;
@@ -183,6 +186,7 @@ export interface Operations {
   recipeInput: (arg0: ValueRecipe) => ValueIngredients;
   nbtAsShort: (arg0: Record<string, any>) => number;
   ingredientsWithEnergy: (arg0: ValueIngredients, arg1: number, arg2: number) => ValueIngredients;
+  doublePow: (arg0: number, arg1: number) => number;
   blockPossibleProperties: (arg0: ValueBlock) => Record<string, any>;
   nbtGetListLong: (arg0: Record<string, any>, arg1: string) => any[];
   nbtGetBoolean: (arg0: Record<string, any>, arg1: string) => boolean;
@@ -209,6 +213,7 @@ export interface Operations {
   nbtAsFloat: (arg0: Record<string, any>) => number;
   anyEquals: (arg0: any, arg1: any) => boolean;
   entityCanBreedWith: (arg0: ValueEntity, arg1: ValueItemstack) => boolean;
+  fluidstackTags: (arg0: ValueFluidstack) => any[];
   longListAsNbt: (arg0: any[]) => Record<string, any>;
   nbtAsLongList: (arg0: Record<string, any>) => any[];
   stringStringError: (arg0: string) => string;
@@ -228,6 +233,7 @@ export interface Operations {
   listConcat: (arg0: any[], arg1: any[]) => any[];
   nbtWithTagList: (arg0: Record<string, any>, arg1: string, arg2: any[]) => Record<string, any>;
   stringNbtPathMatchFirst: (arg0: string, arg1: Record<string, any>) => Record<string, any>;
+  stringFluidsByTag: (arg0: string) => any[];
   entityNbt: (arg0: ValueEntity) => Record<string, any>;
   itemstackHasNbt: (arg0: ValueItemstack) => boolean;
   listAppend: (arg0: any[], arg1: any) => any[];
@@ -260,6 +266,7 @@ export interface Operations {
   entityIsItem: (arg0: ValueEntity) => boolean;
   nbtGetListByte: (arg0: Record<string, any>, arg1: string) => any[];
   entityHasGuiOpen: (arg0: ValueEntity) => boolean;
+  listEquals_multiset: (arg0: any[], arg1: any[]) => boolean;
   itemstackInventory: (arg0: ValueItemstack) => any[];
   operatorConjunction: (arg0: Function, arg1: Function) => Function;
   itemstackInventorySize: (arg0: ValueItemstack) => number;
@@ -277,6 +284,7 @@ export interface Operations {
   stringRegexGroup: (arg0: string, arg1: number, arg2: string) => string;
   nbtGetDouble: (arg0: Record<string, any>, arg1: string) => number;
   integerXor: (arg0: number, arg1: number) => number;
+  stringBlocksByTag: (arg0: string) => any[];
   itemstackWithSize: (arg0: ValueItemstack, arg1: number) => ValueItemstack;
   nbtSize: (arg0: Record<string, any>) => number;
   entityIsShearable: (arg0: ValueEntity) => boolean;
@@ -353,6 +361,7 @@ export interface ValueBlock {
   possibleProperties: () => Record<string, any>;
   plantAge: () => number;
   properties: () => Record<string, any>;
+  tags: () => any[];
 }
 
 export interface ValueIngredients {
@@ -392,6 +401,7 @@ export interface ValueFluidstack {
   dataValue: (arg0: string) => Record<string, any>;
   bucketEmptySound: () => string;
   bucketFillSound: () => string;
+  tags: () => any[];
   bucket: () => ValueItemstack;
   lightLevel: () => number;
   viscosity: () => number;

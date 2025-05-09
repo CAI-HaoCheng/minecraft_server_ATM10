@@ -15,7 +15,7 @@ autocraftingNotification = true
 [controller]
 	# Default: 1000
 	# Range: 0 ~ 9223372036854775807
-	energyCapacity = 1000
+	energyCapacity = 50000
 
 [diskDrive]
 	# Default: 10

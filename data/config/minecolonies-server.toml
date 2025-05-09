@@ -84,6 +84,8 @@
 	canplayerusedeletecolonycommand = false
 	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
+	#Should players be allowed to use the /mc citizens modify command? [Default: false]
+	canplayerusemodifycitizenscommand = false
 
 #All configuration related to colony claims
 [claims]
