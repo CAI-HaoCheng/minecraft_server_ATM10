@@ -30,6 +30,7 @@ while true; do
 
     if [[ "$STATUS" == "exited" || "$STATUS" == "dead" ]]; then
         echo "Container $CONTAINER_NAME 已關閉（狀態：$STATUS）"
+        echo "執行git push"
         # 將檔案新增到 Git
         git add .
 
