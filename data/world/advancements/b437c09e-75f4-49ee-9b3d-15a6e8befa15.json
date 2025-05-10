@@ -365,7 +365,8 @@
       "cooked_porkchop": "2025-05-04 05:56:41 +0000",
       "apple": "2025-05-01 15:43:13 +0000",
       "bread": "2025-05-03 09:41:53 +0000",
-      "cooked_mutton": "2025-05-01 15:27:15 +0000"
+      "cooked_mutton": "2025-05-01 15:27:15 +0000",
+      "melon_slice": "2025-05-10 08:27:01 +0000"
     },
     "done": false
   },
@@ -830,6 +831,30 @@
   "create_enchantment_industry:root": {
     "criteria": {
       "0": "2025-05-09 09:00:51 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:multiblocks/craft_sheetmetal": {
+    "criteria": {
+      "has_item": "2025-05-10 04:48:35 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/connect_wire": {
+    "criteria": {
+      "code_trigger": "2025-05-10 04:59:06 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/place_conveyor": {
+    "criteria": {
+      "conveyor_basic": "2025-05-10 10:26:24 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:multiblocks/mb_metalpress": {
+    "criteria": {
+      "form_multiblock": "2025-05-10 10:27:13 +0000"
     },
     "done": true
   },

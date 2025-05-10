@@ -306,12 +306,6 @@
     },
     "done": false
   },
-  "apotheosis:progression/root": {
-    "criteria": {
-      "tick": "2025-05-09 13:57:45 +0000"
-    },
-    "done": true
-  },
   "apotheosis:progression/haven": {
     "criteria": {
       "affixed": "2025-04-30 15:25:37 +0000"
@@ -1137,27 +1131,21 @@
     },
     "done": true
   },
-  "create_enchantment_industry:a_shower_experience": {
+  "create_enchantment_industry:root": {
     "criteria": {
-      "0": "2025-05-09 15:51:29 +0000"
+      "0": "2025-05-09 13:57:43 +0000"
     },
     "done": true
   },
-  "repurposed_structures:villages": {
+  "apotheosis:progression/root": {
     "criteria": {
-      "in_village_mountains": "2025-05-09 15:47:03 +0000"
+      "tick": "2025-05-09 13:57:45 +0000"
     },
-    "done": false
+    "done": true
   },
   "create_enchantment_industry:experienced_engineer": {
     "criteria": {
       "0": "2025-05-09 15:20:08 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:root": {
-    "criteria": {
-      "0": "2025-05-09 13:57:43 +0000"
     },
     "done": true
   },
@@ -1172,6 +1160,18 @@
       "in_outpost_oak": "2025-05-09 15:41:16 +0000"
     },
     "done": false
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_mountains": "2025-05-09 15:47:03 +0000"
+    },
+    "done": false
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "0": "2025-05-09 15:51:29 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
