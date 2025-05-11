@@ -111,17 +111,21 @@
   "regions_unexplored:regions_explored": {
     "criteria": {
       "mycotoxic_undergrowth": "2025-05-04 08:03:15 +0000",
+      "willow_forest": "2025-05-11 05:34:55 +0000",
       "bayou": "2025-05-01 11:34:49 +0000",
+      "blackstone_basin": "2025-05-11 06:20:11 +0000",
       "temperate_grove": "2025-05-01 15:43:50 +0000",
       "towering_cliffs": "2025-05-03 11:07:23 +0000",
       "shrubland": "2025-05-04 05:15:43 +0000",
       "prismachasm": "2025-05-03 11:10:55 +0000",
-      "infernal_holt": "2025-05-04 08:03:47 +0000"
+      "infernal_holt": "2025-05-04 08:03:47 +0000",
+      "glistering_meadow": "2025-05-11 05:58:23 +0000"
     },
     "done": false
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "willow_forest": "2025-05-11 05:34:55 +0000",
       "bayou": "2025-05-01 11:34:49 +0000",
       "temperate_grove": "2025-05-01 15:43:50 +0000",
       "towering_cliffs": "2025-05-03 11:07:23 +0000",
@@ -366,6 +370,7 @@
       "apple": "2025-05-01 15:43:13 +0000",
       "bread": "2025-05-03 09:41:53 +0000",
       "cooked_mutton": "2025-05-01 15:27:15 +0000",
+      "cooked_beef": "2025-05-10 18:19:33 +0000",
       "melon_slice": "2025-05-10 08:27:01 +0000"
     },
     "done": false
@@ -519,6 +524,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:river": "2025-05-03 09:37:34 +0000",
+      "minecraft:swamp": "2025-05-10 18:36:20 +0000",
       "minecraft:windswept_hills": "2025-05-04 05:15:54 +0000",
       "minecraft:windswept_savanna": "2025-05-04 05:16:36 +0000"
     },
@@ -586,7 +592,11 @@
   },
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
-      "biomeswevegone:cypress_swamplands": "2025-05-04 05:15:55 +0000"
+      "biomeswevegone:cypress_swamplands": "2025-05-04 05:15:55 +0000",
+      "biomeswevegone:prairie": "2025-05-11 06:39:22 +0000",
+      "biomeswevegone:temperate_grove": "2025-05-11 06:42:18 +0000",
+      "biomeswevegone:allium_shrubland": "2025-05-10 18:35:27 +0000",
+      "biomeswevegone:aspen_boreal": "2025-05-11 06:41:25 +0000"
     },
     "done": false
   },
@@ -686,7 +696,9 @@
   "regions_unexplored:eternal_expedition": {
     "criteria": {
       "mycotoxic_undergrowth": "2025-05-04 08:03:15 +0000",
-      "infernal_holt": "2025-05-04 08:03:47 +0000"
+      "blackstone_basin": "2025-05-11 06:20:11 +0000",
+      "infernal_holt": "2025-05-04 08:03:47 +0000",
+      "glistering_meadow": "2025-05-11 05:58:23 +0000"
     },
     "done": false
   },
@@ -722,7 +734,9 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-05-04 13:41:03 +0000"
+      "minecraft:crimson_forest": "2025-05-11 05:59:48 +0000",
+      "minecraft:nether_wastes": "2025-05-04 13:41:03 +0000",
+      "minecraft:soul_sand_valley": "2025-05-11 05:59:20 +0000"
     },
     "done": false
   },
@@ -855,6 +869,121 @@
   "immersiveengineering:multiblocks/mb_metalpress": {
     "criteria": {
       "form_multiblock": "2025-05-10 10:27:13 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "0": "2025-05-10 17:49:33 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "0": "2025-05-10 17:49:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2025-05-10 18:11:26 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-10 18:13:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-05-10 18:13:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-10 18:14:01 +0000"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "opened_25": "2025-05-10 18:18:15 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/steal_from_wizard": {
+    "criteria": {
+      "anger_wizard": "2025-05-10 18:37:16 +0000"
+    },
+    "done": true
+  },
+  "silentgear:stone_anvil": {
+    "criteria": {
+      "get_item": "2025-05-11 05:37:19 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crude_knife": {
+    "criteria": {
+      "get_item": "2025-05-11 05:38:30 +0000"
+    },
+    "done": true
+  },
+  "silentgear:template_board": {
+    "criteria": {
+      "get_item": "2025-05-11 05:38:35 +0000"
+    },
+    "done": true
+  },
+  "silentgear:blueprint_paper": {
+    "criteria": {
+      "get_item": "2025-05-11 05:51:38 +0000"
+    },
+    "done": true
+  },
+  "silentgear:blaze_gold": {
+    "criteria": {
+      "get_item": "2025-05-11 05:58:42 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crimson_iron": {
+    "criteria": {
+      "get_ore": "2025-05-11 06:00:10 +0000",
+      "get_ingot": "2025-05-11 06:00:57 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:downer": {
+    "criteria": {
+      "dorcel": "2025-05-11 06:19:09 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-05-11 06:31:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2025-05-11 06:31:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-05-11 06:31:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipe/enchanted_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-05-11 06:32:05 +0000"
     },
     "done": true
   },
