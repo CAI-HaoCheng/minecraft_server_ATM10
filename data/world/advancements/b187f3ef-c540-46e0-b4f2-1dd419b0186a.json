@@ -908,9 +908,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-05-11 12:37:38 +0000",
       "minecraft:soul_sand_valley": "2025-05-08 14:23:14 +0000",
-      "minecraft:nether_wastes": "2025-05-11 12:34:32 +0000"
+      "minecraft:nether_wastes": "2025-05-11 12:34:32 +0000",
+      "minecraft:basalt_deltas": "2025-05-13 14:18:11 +0000",
+      "minecraft:warped_forest": "2025-05-13 14:27:02 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
@@ -934,7 +936,8 @@
     "criteria": {
       "in_mineshaft_soul": "2025-05-11 12:24:51 +0000",
       "in_mineshaft_nether": "2025-05-11 12:33:54 +0000",
-      "in_mineshaft_stone": "2025-05-09 14:36:14 +0000"
+      "in_mineshaft_stone": "2025-05-09 14:36:14 +0000",
+      "in_mineshaft_warped": "2025-05-13 14:38:07 +0000"
     },
     "done": false
   },
@@ -1004,21 +1007,51 @@
     },
     "done": true
   },
-  "mekanism:basic_control_circuit": {
-    "criteria": {
-      "basic_control_circuit": "2025-05-12 15:17:02 +0000"
-    },
-    "done": true
-  },
   "mekanism:chemical_tank": {
     "criteria": {
       "basic_chemical_tank": "2025-05-12 15:15:30 +0000"
     },
     "done": true
   },
+  "mekanism:basic_control_circuit": {
+    "criteria": {
+      "basic_control_circuit": "2025-05-12 15:17:02 +0000"
+    },
+    "done": true
+  },
   "mekanism:hydrogen_powered_flight": {
     "criteria": {
       "jetpack": "2025-05-12 15:18:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-05-13 14:23:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-05-13 14:20:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-05-13 14:26:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-05-13 14:18:36 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-05-13 14:23:22 +0000"
     },
     "done": true
   },
