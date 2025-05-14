@@ -110,6 +110,7 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "mauve_hills": "2025-05-14 09:40:18 +0000",
       "willow_forest": "2025-05-07 15:11:53 +0000",
       "temperate_grove": "2025-04-30 15:22:42 +0000",
       "barley_fields": "2025-05-09 15:44:56 +0000",
@@ -136,6 +137,7 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "mauve_hills": "2025-05-14 09:40:18 +0000",
       "willow_forest": "2025-05-07 15:11:53 +0000",
       "temperate_grove": "2025-04-30 15:22:42 +0000",
       "barley_fields": "2025-05-09 15:44:56 +0000",
@@ -459,6 +461,7 @@
       "minecraft:dark_forest": "2025-05-09 15:27:36 +0000",
       "minecraft:forest": "2025-05-07 15:16:47 +0000",
       "minecraft:river": "2025-05-01 02:19:54 +0000",
+      "minecraft:lukewarm_ocean": "2025-05-14 09:42:56 +0000",
       "minecraft:stony_shore": "2025-05-09 15:43:52 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-09 15:27:16 +0000",
       "minecraft:windswept_forest": "2025-05-09 15:46:53 +0000",
@@ -1269,6 +1272,12 @@
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2025-05-13 15:24:35 +0000"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2025-05-14 09:42:55 +0000"
     },
     "done": true
   },
