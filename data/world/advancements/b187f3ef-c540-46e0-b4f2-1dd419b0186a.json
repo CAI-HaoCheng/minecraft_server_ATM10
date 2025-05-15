@@ -260,7 +260,8 @@
       "rotten_flesh": "2025-04-30 15:51:55 +0000",
       "cooked_mutton": "2025-05-01 11:44:12 +0000",
       "cooked_cod": "2025-05-05 15:04:36 +0000",
-      "cooked_beef": "2025-05-04 08:38:55 +0000"
+      "cooked_beef": "2025-05-04 08:38:55 +0000",
+      "baked_potato": "2025-05-15 14:20:28 +0000"
     },
     "done": false
   },
@@ -495,6 +496,7 @@
       "minecraft:taiga": "2025-05-01 11:30:37 +0000",
       "minecraft:deep_ocean": "2025-05-05 14:49:26 +0000",
       "minecraft:river": "2025-05-01 08:07:57 +0000",
+      "minecraft:stony_shore": "2025-05-15 14:27:54 +0000",
       "minecraft:dripstone_caves": "2025-05-01 11:44:59 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-01 08:21:36 +0000",
       "minecraft:deep_dark": "2025-05-11 05:22:41 +0000",
@@ -569,12 +571,14 @@
   },
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
+      "biomeswevegone:maple_taiga": "2025-05-15 14:36:16 +0000",
       "biomeswevegone:orchard": "2025-05-09 15:13:47 +0000",
       "biomeswevegone:cypress_swamplands": "2025-05-01 12:11:44 +0000",
       "biomeswevegone:rose_fields": "2025-05-07 15:11:33 +0000",
       "biomeswevegone:basalt_barrera": "2025-05-07 15:08:06 +0000",
       "biomeswevegone:temperate_grove": "2025-05-07 15:11:12 +0000",
       "biomeswevegone:allium_shrubland": "2025-05-01 12:12:29 +0000",
+      "biomeswevegone:forgotten_forest": "2025-05-15 14:29:11 +0000",
       "biomeswevegone:aspen_boreal": "2025-05-01 12:12:32 +0000",
       "biomeswevegone:bayou": "2025-05-01 12:37:17 +0000"
     },
@@ -606,7 +610,8 @@
   },
   "apotheosis:progression/summit": {
     "criteria": {
-      "rare_chest": "2025-05-01 12:28:45 +0000"
+      "rare_chest": "2025-05-01 12:28:45 +0000",
+      "rare_legs": "2025-05-15 14:38:50 +0000"
     },
     "done": false
   },
@@ -702,7 +707,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_monster_room": "2025-05-03 15:42:53 +0000"
+      "in_better_monster_room": "2025-05-03 15:42:53 +0000",
+      "in_better_spider_dungeon": "2025-05-15 14:29:15 +0000"
     },
     "done": false
   },
@@ -1025,9 +1031,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_ancient_debris": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "ancient_debris": "2025-05-13 14:23:29 +0000"
+      "bastion": "2025-05-13 14:18:36 +0000"
     },
     "done": true
   },
@@ -1037,21 +1043,33 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-05-13 14:23:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-05-13 14:23:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2025-05-13 14:26:06 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
+  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
     "criteria": {
-      "bastion": "2025-05-13 14:18:36 +0000"
+      "in_catacombs": "2025-05-15 14:29:52 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/create_magic_scroll": {
+  "betterdungeons:spider_dungeon": {
     "criteria": {
-      "has_magic_scroll": "2025-05-13 14:23:22 +0000"
+      "in_better_spider_dungeon": "2025-05-15 14:29:15 +0000"
     },
     "done": true
   },
