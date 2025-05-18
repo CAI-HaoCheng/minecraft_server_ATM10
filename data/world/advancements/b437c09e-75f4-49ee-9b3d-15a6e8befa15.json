@@ -1000,5 +1000,47 @@
     },
     "done": true
   },
+  "naturesaura:gold_leaf": {
+    "criteria": {
+      "leaf": "2025-05-17 14:57:54 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:wood_stand": {
+    "criteria": {
+      "stand": "2025-05-17 14:59:00 +0000"
+    },
+    "done": true
+  },
+  "railcraft:tracks/regular_track": {
+    "criteria": {
+      "inv_changed": "2025-05-18 09:14:48 +0000"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2025-05-18 09:14:44 +0000"
+    },
+    "done": false
+  },
+  "naturesaura:eye": {
+    "criteria": {
+      "eye": "2025-05-18 14:33:54 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2025-05-18 09:18:24 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/meneglin_discovery": {
+    "criteria": {
+      "criteria_0": "2025-05-18 09:21:08 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

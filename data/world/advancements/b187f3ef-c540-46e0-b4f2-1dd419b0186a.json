@@ -110,22 +110,30 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "mountains": "2025-05-17 13:09:26 +0000",
+      "shrubland": "2025-05-03 14:53:34 +0000",
+      "boreal_forest": "2025-05-01 11:40:02 +0000",
+      "fen": "2025-05-17 12:43:56 +0000",
+      "glistering_meadow": "2025-05-04 07:24:59 +0000",
+      "pine_taiga": "2025-05-01 08:16:40 +0000",
+      "bayou": "2025-04-30 15:01:14 +0000",
+      "blackstone_basin": "2025-05-18 14:21:53 +0000",
+      "muddy_river": "2025-05-01 11:40:29 +0000",
+      "autumnal_maple_forest": "2025-05-17 12:43:45 +0000",
+      "towering_cliffs": "2025-05-01 08:15:24 +0000",
+      "infernal_holt": "2025-05-01 07:45:08 +0000",
       "willow_forest": "2025-05-03 14:57:56 +0000",
       "temperate_grove": "2025-04-30 15:51:57 +0000",
-      "shrubland": "2025-05-03 14:53:34 +0000",
+      "cold_river": "2025-05-17 12:50:36 +0000",
+      "pumpkin_fields": "2025-05-17 12:49:09 +0000",
+      "pine_slopes": "2025-05-17 13:09:28 +0000",
       "old_growth_bayou": "2025-05-01 12:26:08 +0000",
       "scorching_caves": "2025-05-01 11:51:22 +0000",
       "grassy_beach": "2025-05-03 15:08:20 +0000",
-      "boreal_forest": "2025-05-01 11:40:02 +0000",
-      "glistering_meadow": "2025-05-04 07:24:59 +0000",
       "blackwood_taiga": "2025-05-01 12:26:01 +0000",
       "rocky_meadow": "2025-05-03 14:44:21 +0000",
       "mycotoxic_undergrowth": "2025-05-01 07:45:05 +0000",
-      "pine_taiga": "2025-05-01 08:16:40 +0000",
-      "bayou": "2025-04-30 15:01:14 +0000",
-      "muddy_river": "2025-05-01 11:40:29 +0000",
-      "towering_cliffs": "2025-05-01 08:15:24 +0000",
-      "infernal_holt": "2025-05-01 07:45:08 +0000",
+      "maple_forest": "2025-05-17 13:03:58 +0000",
       "magnolia_highlands": "2025-05-01 08:14:02 +0000",
       "lupine_plains": "2025-05-01 08:16:38 +0000"
     },
@@ -134,16 +142,23 @@
   "regions_unexplored:pioneer": {
     "criteria": {
       "willow_forest": "2025-05-03 14:57:56 +0000",
+      "mountains": "2025-05-17 13:09:26 +0000",
       "temperate_grove": "2025-04-30 15:51:57 +0000",
+      "cold_river": "2025-05-17 12:50:36 +0000",
+      "pumpkin_fields": "2025-05-17 12:49:09 +0000",
       "shrubland": "2025-05-03 14:53:34 +0000",
+      "pine_slopes": "2025-05-17 13:09:28 +0000",
       "old_growth_bayou": "2025-05-01 12:26:08 +0000",
       "grassy_beach": "2025-05-03 15:08:20 +0000",
       "boreal_forest": "2025-05-01 11:40:02 +0000",
+      "fen": "2025-05-17 12:43:56 +0000",
       "blackwood_taiga": "2025-05-01 12:26:01 +0000",
       "rocky_meadow": "2025-05-03 14:44:21 +0000",
       "pine_taiga": "2025-05-01 08:16:40 +0000",
       "bayou": "2025-04-30 15:01:14 +0000",
+      "maple_forest": "2025-05-17 13:03:58 +0000",
       "muddy_river": "2025-05-01 11:40:29 +0000",
+      "autumnal_maple_forest": "2025-05-17 12:43:45 +0000",
       "towering_cliffs": "2025-05-01 08:15:24 +0000",
       "magnolia_highlands": "2025-05-01 08:14:02 +0000",
       "lupine_plains": "2025-05-01 08:16:38 +0000"
@@ -261,7 +276,8 @@
       "cooked_mutton": "2025-05-01 11:44:12 +0000",
       "cooked_cod": "2025-05-05 15:04:36 +0000",
       "cooked_beef": "2025-05-04 08:38:55 +0000",
-      "baked_potato": "2025-05-15 14:20:28 +0000"
+      "baked_potato": "2025-05-15 14:20:28 +0000",
+      "golden_carrot": "2025-05-17 12:57:59 +0000"
     },
     "done": false
   },
@@ -407,6 +423,7 @@
   "regions_unexplored:eternal_expedition": {
     "criteria": {
       "mycotoxic_undergrowth": "2025-05-01 07:45:05 +0000",
+      "blackstone_basin": "2025-05-18 14:21:53 +0000",
       "infernal_holt": "2025-05-01 07:45:08 +0000",
       "glistering_meadow": "2025-05-04 07:24:59 +0000"
     },
@@ -490,6 +507,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-05-17 13:03:30 +0000",
       "minecraft:beach": "2025-05-08 14:57:06 +0000",
       "minecraft:dark_forest": "2025-05-01 08:21:07 +0000",
       "minecraft:forest": "2025-05-08 14:59:33 +0000",
@@ -498,10 +516,12 @@
       "minecraft:river": "2025-05-01 08:07:57 +0000",
       "minecraft:stony_shore": "2025-05-15 14:27:54 +0000",
       "minecraft:dripstone_caves": "2025-05-01 11:44:59 +0000",
+      "minecraft:frozen_peaks": "2025-05-17 13:04:49 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-01 08:21:36 +0000",
       "minecraft:deep_dark": "2025-05-11 05:22:41 +0000",
       "minecraft:ocean": "2025-05-05 14:48:15 +0000",
       "minecraft:swamp": "2025-05-01 12:27:18 +0000",
+      "minecraft:grove": "2025-05-17 13:04:36 +0000",
       "minecraft:meadow": "2025-05-01 11:44:57 +0000",
       "minecraft:birch_forest": "2025-05-01 08:17:10 +0000",
       "minecraft:windswept_hills": "2025-05-01 12:11:42 +0000",
@@ -571,13 +591,18 @@
   },
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
-      "biomeswevegone:maple_taiga": "2025-05-15 14:36:16 +0000",
       "biomeswevegone:orchard": "2025-05-09 15:13:47 +0000",
+      "biomeswevegone:dacite_shore": "2025-05-17 13:01:55 +0000",
+      "biomeswevegone:weeping_witch_forest": "2025-05-17 12:40:52 +0000",
+      "biomeswevegone:skyrise_vale": "2025-05-17 12:54:22 +0000",
+      "biomeswevegone:allium_shrubland": "2025-05-01 12:12:29 +0000",
+      "biomeswevegone:coconino_meadow": "2025-05-17 12:51:04 +0000",
+      "biomeswevegone:maple_taiga": "2025-05-15 14:36:16 +0000",
       "biomeswevegone:cypress_swamplands": "2025-05-01 12:11:44 +0000",
       "biomeswevegone:rose_fields": "2025-05-07 15:11:33 +0000",
       "biomeswevegone:basalt_barrera": "2025-05-07 15:08:06 +0000",
       "biomeswevegone:temperate_grove": "2025-05-07 15:11:12 +0000",
-      "biomeswevegone:allium_shrubland": "2025-05-01 12:12:29 +0000",
+      "biomeswevegone:zelkova_forest": "2025-05-17 12:52:26 +0000",
       "biomeswevegone:forgotten_forest": "2025-05-15 14:29:11 +0000",
       "biomeswevegone:aspen_boreal": "2025-05-01 12:12:32 +0000",
       "biomeswevegone:bayou": "2025-05-01 12:37:17 +0000"
@@ -1061,17 +1086,47 @@
     },
     "done": true
   },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2025-05-15 14:29:15 +0000"
+    },
+    "done": true
+  },
   "irons_spellbooks:irons_spellbooks/enter_catacombs": {
     "criteria": {
       "in_catacombs": "2025-05-15 14:29:52 +0000"
     },
     "done": true
   },
-  "betterdungeons:spider_dungeon": {
+  "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "in_better_spider_dungeon": "2025-05-15 14:29:15 +0000"
+      "variantsandventures:gelid": "2025-05-17 13:05:05 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "variantsandventures:gelid": "2025-05-17 13:05:05 +0000"
     },
     "done": true
+  },
+  "immersiveengineering:main/creosote": {
+    "criteria": {
+      "has_item": "2025-05-18 13:49:27 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_treatedwood": {
+    "criteria": {
+      "has_item": "2025-05-18 13:49:59 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2025-05-18 14:22:28 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
