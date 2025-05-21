@@ -288,6 +288,7 @@
   "regions_unexplored:got_wood": {
     "criteria": {
       "cypress_log": "2025-05-01 14:33:03 +0000",
+      "pine_log": "2025-05-21 14:53:27 +0000",
       "willow_log": "2025-05-03 15:13:19 +0000",
       "maple_log": "2025-05-14 15:33:52 +0000"
     },
@@ -1012,21 +1013,15 @@
     },
     "done": true
   },
-  "railcraft:tracks/regular_track": {
-    "criteria": {
-      "inv_changed": "2025-05-18 09:14:48 +0000"
-    },
-    "done": true
-  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2025-05-18 09:14:44 +0000"
     },
     "done": false
   },
-  "naturesaura:eye": {
+  "railcraft:tracks/regular_track": {
     "criteria": {
-      "eye": "2025-05-18 14:33:54 +0000"
+      "inv_changed": "2025-05-18 09:14:48 +0000"
     },
     "done": true
   },
@@ -1039,6 +1034,12 @@
   "integrateddynamics:meneglin_basics/meneglin_discovery": {
     "criteria": {
       "criteria_0": "2025-05-18 09:21:08 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:eye": {
+    "criteria": {
+      "eye": "2025-05-18 14:33:54 +0000"
     },
     "done": true
   },
