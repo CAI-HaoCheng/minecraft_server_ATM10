@@ -3,11 +3,9 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: -165, y: 69, z: 305, time: 1747845044876L, xRot: 1.5000002f, yRot: -121.649994f }
+	last_seen: { dim: "minecraft:overworld", x: -163, y: 69, z: 304, time: 1747929747576L, xRot: 0.0f, yRot: 89.99999f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: -164, y: 66, z: 300, time: 1746941634400L }
-		{ dim: "minecraft:overworld", x: 79, y: 51, z: -705, time: 1746941723706L }
 		{ dim: "minecraft:the_nether", x: 254, y: 52, z: -9, time: 1746943217518L }
 		{ dim: "minecraft:the_nether", x: 8, y: 42, z: 17, time: 1746943968527L }
 		{ dim: "minecraft:the_nether", x: 210, y: 52, z: 102, time: 1746944597769L }
@@ -16,6 +14,8 @@
 		{ dim: "minecraft:overworld", x: -154, y: 87, z: 347, time: 1746945856560L }
 		{ dim: "minecraft:overworld", x: -174, y: 73, z: 396, time: 1747841632893L }
 		{ dim: "minecraft:overworld", x: -164, y: 69, z: 305, time: 1747844463090L }
+		{ dim: "minecraft:overworld", x: -174, y: 68, z: 349, time: 1747923985743L }
+		{ dim: "twilightforest:twilight_forest", x: -1457, y: 6, z: 2251, time: 1747927314282L }
 	]
 	homes: { }
 	kit_use_times: { }

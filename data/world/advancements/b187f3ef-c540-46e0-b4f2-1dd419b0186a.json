@@ -1128,5 +1128,29 @@
     },
     "done": false
   },
+  "immersiveengineering:main/connect_wire": {
+    "criteria": {
+      "code_trigger": "2025-05-22 14:51:51 +0000"
+    },
+    "done": true
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2025-05-22 14:27:22 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_transport": {
+    "criteria": {
+      "basic_universal_cable": "2025-05-22 14:48:15 +0000"
+    },
+    "done": true
+  },
+  "mekanism:fluid_transport": {
+    "criteria": {
+      "basic_mechanical_pipe": "2025-05-22 14:20:43 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
