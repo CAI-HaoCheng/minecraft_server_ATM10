@@ -508,7 +508,8 @@
     "criteria": {
       "cypress_log": "2025-05-01 02:17:42 +0000",
       "brimwood_log": "2025-05-03 11:01:54 +0000",
-      "willow_log": "2025-05-01 03:11:30 +0000"
+      "willow_log": "2025-05-01 03:11:30 +0000",
+      "maple_log": "2025-05-23 14:56:33 +0000"
     },
     "done": false
   },
@@ -1309,6 +1310,72 @@
       "0": "2025-05-21 16:23:15 +0000"
     },
     "done": true
+  },
+  "create:cart_pickup": {
+    "criteria": {
+      "0": "2025-05-23 15:02:48 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:first_age": {
+    "criteria": {
+      "criteria_0": "2025-05-23 15:25:04 +0000"
+    },
+    "done": true
+  },
+  "silentgear:overworld_plants": {
+    "criteria": {
+      "fluffy_seeds": "2025-05-23 15:32:53 +0000"
+    },
+    "done": false
+  },
+  "mekanism:infusing_efficiency": {
+    "criteria": {
+      "enriched_material": "2025-05-24 07:20:05 +0000"
+    },
+    "done": true
+  },
+  "mekanism:steel_casing": {
+    "criteria": {
+      "steel_casing": "2025-05-24 07:22:01 +0000"
+    },
+    "done": true
+  },
+  "mekanism:reinforced_alloy": {
+    "criteria": {
+      "alloy_reinforced": "2025-05-24 07:23:40 +0000"
+    },
+    "done": true
+  },
+  "mekanism:basic_control_circuit": {
+    "criteria": {
+      "basic_control_circuit": "2025-05-24 07:26:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2025-05-24 07:26:57 +0000"
+    },
+    "done": true
+  },
+  "mekanism:pump": {
+    "criteria": {
+      "electric_pump": "2025-05-24 07:27:15 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_cube": {
+    "criteria": {
+      "basic_energy_cube": "2025-05-24 07:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:pale": "2025-05-24 07:56:20 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
