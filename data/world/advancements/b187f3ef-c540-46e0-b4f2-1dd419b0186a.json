@@ -337,9 +337,10 @@
       "common_helm": "2025-04-30 15:57:58 +0000",
       "common_hand": "2025-04-30 15:57:40 +0000",
       "common_chest": "2025-05-01 12:28:45 +0000",
-      "common_legs": "2025-05-01 07:53:28 +0000"
+      "common_legs": "2025-05-01 07:53:28 +0000",
+      "common_feet": "2025-06-01 06:25:49 +0000"
     },
-    "done": false
+    "done": true
   },
   "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed": {
     "criteria": {
@@ -733,7 +734,8 @@
   "betterdungeons:all_dungeons": {
     "criteria": {
       "in_better_monster_room": "2025-05-03 15:42:53 +0000",
-      "in_better_spider_dungeon": "2025-05-15 14:29:15 +0000"
+      "in_better_spider_dungeon": "2025-05-15 14:29:15 +0000",
+      "in_better_skeleton_dungeon": "2025-06-01 06:17:44 +0000"
     },
     "done": false
   },
@@ -1173,6 +1175,114 @@
   "ae2:main/charged_quartz": {
     "criteria": {
       "certus": "2025-05-24 02:57:21 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2025-06-01 06:44:59 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:vacuum_bottle": {
+    "criteria": {
+      "bottle": "2025-06-01 06:45:17 +0000"
+    },
+    "done": true
+  },
+  "mekanism:reinforced_alloy": {
+    "criteria": {
+      "alloy_reinforced": "2025-06-01 06:45:14 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:root": {
+    "criteria": {
+      "ars_nouveau:worn_notebook": "2025-06-01 06:45:15 +0000"
+    },
+    "done": true
+  },
+  "mekanism:item_transport": {
+    "criteria": {
+      "basic_logistical_transporter": "2025-06-01 06:44:44 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:honey_bucket/obtain_honey_bucket": {
+    "criteria": {
+      "obtain_honey_bucket": "2025-06-01 06:44:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:infused_alloy": {
+    "criteria": {
+      "alloy_infused": "2025-06-01 06:45:14 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/main_root": {
+    "criteria": {
+      "has_item": "2025-06-01 06:44:11 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_cube": {
+    "criteria": {
+      "basic_energy_cube": "2025-06-01 06:43:22 +0000"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2025-06-01 06:44:44 +0000"
+    },
+    "done": true
+  },
+  "mekanism:steel_casing": {
+    "criteria": {
+      "steel_casing": "2025-06-01 06:44:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-06-01 06:43:22 +0000"
+    },
+    "done": true
+  },
+  "trashcans:trash_can": {
+    "criteria": {
+      "has_item_trash_can": "2025-06-01 06:44:28 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:first_age": {
+    "criteria": {
+      "criteria_0": "2025-06-01 06:44:10 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:source_jar": {
+    "criteria": {
+      "has_source_jar": "2025-06-01 06:45:15 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:skeleton_dungeon": {
+    "criteria": {
+      "in_better_skeleton_dungeon": "2025-06-01 06:17:44 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:gold_leaf": {
+    "criteria": {
+      "leaf": "2025-06-01 06:45:17 +0000"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2025-06-01 06:44:42 +0000"
     },
     "done": true
   },

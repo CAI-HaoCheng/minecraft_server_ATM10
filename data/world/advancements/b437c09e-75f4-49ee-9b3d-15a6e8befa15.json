@@ -281,6 +281,7 @@
   },
   "apotheosis:progression/ascent": {
     "criteria": {
+      "uncommon_legs": "2025-06-01 06:47:42 +0000",
       "uncommon_hand": "2025-05-01 14:29:42 +0000"
     },
     "done": false
@@ -1052,6 +1053,30 @@
   "ae2:main/glass_cable": {
     "criteria": {
       "certus": "2025-05-23 14:49:22 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:aura_bottle_nether": {
+    "criteria": {
+      "bottle": "2025-06-01 06:02:21 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:aura_bottle_end": {
+    "criteria": {
+      "bottle": "2025-06-01 06:02:21 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:altar": {
+    "criteria": {
+      "book": "2025-06-01 06:08:30 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:aura_bottle_overworld": {
+    "criteria": {
+      "bottle": "2025-06-01 06:02:21 +0000"
     },
     "done": true
   },

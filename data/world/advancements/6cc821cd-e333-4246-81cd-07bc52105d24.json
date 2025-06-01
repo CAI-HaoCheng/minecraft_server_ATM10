@@ -1377,5 +1377,71 @@
     },
     "done": false
   },
+  "pneumaticcraft:air_compressor": {
+    "criteria": {
+      "0": "2025-06-01 07:43:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:vortex_tube": {
+    "criteria": {
+      "0": "2025-06-01 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:refinery": {
+    "criteria": {
+      "0": "2025-06-01 08:58:36 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:root": {
+    "criteria": {
+      "0": "2025-06-01 07:42:29 +0000"
+    },
+    "done": true
+  },
+  "mekanism:item_transport": {
+    "criteria": {
+      "basic_logistical_transporter": "2025-06-01 05:31:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pressure_tube": {
+    "criteria": {
+      "0": "2025-06-01 07:43:15 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pressure_chamber": {
+    "criteria": {
+      "0": "2025-06-01 07:47:19 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:tp_plant": {
+    "criteria": {
+      "0": "2025-06-01 08:08:50 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:machine_vandal": {
+    "criteria": {
+      "0": "2025-06-01 07:46:05 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:plastic": {
+    "criteria": {
+      "0": "2025-06-01 08:59:37 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:lpg_bucket": {
+    "criteria": {
+      "0": "2025-06-01 08:59:00 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
