@@ -110,6 +110,7 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "mauve_hills": "2025-06-15 08:21:28 +0000",
       "mountains": "2025-05-17 13:09:26 +0000",
       "shrubland": "2025-05-03 14:53:34 +0000",
       "boreal_forest": "2025-05-01 11:40:02 +0000",
@@ -133,6 +134,7 @@
       "blackwood_taiga": "2025-05-01 12:26:01 +0000",
       "rocky_meadow": "2025-05-03 14:44:21 +0000",
       "mycotoxic_undergrowth": "2025-05-01 07:45:05 +0000",
+      "flower_fields": "2025-06-15 08:23:30 +0000",
       "maple_forest": "2025-05-17 13:03:58 +0000",
       "magnolia_highlands": "2025-05-01 08:14:02 +0000",
       "lupine_plains": "2025-05-01 08:16:38 +0000"
@@ -141,6 +143,7 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "mauve_hills": "2025-06-15 08:21:28 +0000",
       "willow_forest": "2025-05-03 14:57:56 +0000",
       "mountains": "2025-05-17 13:09:26 +0000",
       "temperate_grove": "2025-04-30 15:51:57 +0000",
@@ -156,6 +159,7 @@
       "rocky_meadow": "2025-05-03 14:44:21 +0000",
       "pine_taiga": "2025-05-01 08:16:40 +0000",
       "bayou": "2025-04-30 15:01:14 +0000",
+      "flower_fields": "2025-06-15 08:23:30 +0000",
       "maple_forest": "2025-05-17 13:03:58 +0000",
       "muddy_river": "2025-05-01 11:40:29 +0000",
       "autumnal_maple_forest": "2025-05-17 12:43:45 +0000",
@@ -496,9 +500,10 @@
       "uncommon_chest": "2025-05-01 12:28:45 +0000",
       "kill_apothic_invader": "2025-05-03 16:14:01 +0000",
       "uncommon_hand": "2025-05-01 11:45:43 +0000",
-      "uncommon_helm": "2025-05-01 12:30:46 +0000"
+      "uncommon_helm": "2025-05-01 12:30:46 +0000",
+      "uncommon_feet": "2025-06-15 08:47:57 +0000"
     },
-    "done": false
+    "done": true
   },
   "silentgear:repair_kit": {
     "criteria": {
@@ -515,12 +520,15 @@
       "minecraft:taiga": "2025-05-01 11:30:37 +0000",
       "minecraft:deep_ocean": "2025-05-05 14:49:26 +0000",
       "minecraft:river": "2025-05-01 08:07:57 +0000",
+      "minecraft:lukewarm_ocean": "2025-06-15 08:22:02 +0000",
       "minecraft:stony_shore": "2025-05-15 14:27:54 +0000",
       "minecraft:dripstone_caves": "2025-05-01 11:44:59 +0000",
       "minecraft:frozen_peaks": "2025-05-17 13:04:49 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-01 08:21:36 +0000",
+      "minecraft:windswept_forest": "2025-06-15 08:13:57 +0000",
       "minecraft:deep_dark": "2025-05-11 05:22:41 +0000",
       "minecraft:ocean": "2025-05-05 14:48:15 +0000",
+      "minecraft:sunflower_plains": "2025-06-15 08:23:16 +0000",
       "minecraft:swamp": "2025-05-01 12:27:18 +0000",
       "minecraft:grove": "2025-05-17 13:04:36 +0000",
       "minecraft:meadow": "2025-05-01 11:44:57 +0000",
@@ -594,12 +602,14 @@
     "criteria": {
       "biomeswevegone:orchard": "2025-05-09 15:13:47 +0000",
       "biomeswevegone:dacite_shore": "2025-05-17 13:01:55 +0000",
+      "biomeswevegone:firecracker_chaparral": "2025-06-15 08:35:54 +0000",
       "biomeswevegone:weeping_witch_forest": "2025-05-17 12:40:52 +0000",
       "biomeswevegone:skyrise_vale": "2025-05-17 12:54:22 +0000",
       "biomeswevegone:allium_shrubland": "2025-05-01 12:12:29 +0000",
       "biomeswevegone:coconino_meadow": "2025-05-17 12:51:04 +0000",
       "biomeswevegone:maple_taiga": "2025-05-15 14:36:16 +0000",
       "biomeswevegone:cypress_swamplands": "2025-05-01 12:11:44 +0000",
+      "biomeswevegone:prairie": "2025-06-15 08:35:06 +0000",
       "biomeswevegone:rose_fields": "2025-05-07 15:11:33 +0000",
       "biomeswevegone:basalt_barrera": "2025-05-07 15:08:06 +0000",
       "biomeswevegone:temperate_grove": "2025-05-07 15:11:12 +0000",
@@ -1178,45 +1188,27 @@
     },
     "done": true
   },
-  "create:andesite_alloy": {
+  "betterdungeons:skeleton_dungeon": {
     "criteria": {
-      "0": "2025-06-01 06:44:59 +0000"
+      "in_better_skeleton_dungeon": "2025-06-01 06:17:44 +0000"
     },
     "done": true
   },
-  "naturesaura:vacuum_bottle": {
+  "mekanism:energy_cube": {
     "criteria": {
-      "bottle": "2025-06-01 06:45:17 +0000"
+      "basic_energy_cube": "2025-06-01 06:43:22 +0000"
     },
     "done": true
   },
-  "mekanism:reinforced_alloy": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "alloy_reinforced": "2025-06-01 06:45:14 +0000"
+      "wither_skull": "2025-06-01 06:43:22 +0000"
     },
     "done": true
   },
-  "ars_nouveau:root": {
+  "evilcraft:first_age": {
     "criteria": {
-      "ars_nouveau:worn_notebook": "2025-06-01 06:45:15 +0000"
-    },
-    "done": true
-  },
-  "mekanism:item_transport": {
-    "criteria": {
-      "basic_logistical_transporter": "2025-06-01 06:44:44 +0000"
-    },
-    "done": true
-  },
-  "the_bumblezone:honey_bucket/obtain_honey_bucket": {
-    "criteria": {
-      "obtain_honey_bucket": "2025-06-01 06:44:43 +0000"
-    },
-    "done": true
-  },
-  "mekanism:infused_alloy": {
-    "criteria": {
-      "alloy_infused": "2025-06-01 06:45:14 +0000"
+      "criteria_0": "2025-06-01 06:44:10 +0000"
     },
     "done": true
   },
@@ -1226,9 +1218,27 @@
     },
     "done": true
   },
-  "mekanism:energy_cube": {
+  "trashcans:trash_can": {
     "criteria": {
-      "basic_energy_cube": "2025-06-01 06:43:22 +0000"
+      "has_item_trash_can": "2025-06-01 06:44:28 +0000"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2025-06-01 06:44:42 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:honey_bucket/obtain_honey_bucket": {
+    "criteria": {
+      "obtain_honey_bucket": "2025-06-01 06:44:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:item_transport": {
+    "criteria": {
+      "basic_logistical_transporter": "2025-06-01 06:44:44 +0000"
     },
     "done": true
   },
@@ -1244,21 +1254,27 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
+  "create:andesite_alloy": {
     "criteria": {
-      "wither_skull": "2025-06-01 06:43:22 +0000"
+      "0": "2025-06-01 06:44:59 +0000"
     },
     "done": true
   },
-  "trashcans:trash_can": {
+  "mekanism:reinforced_alloy": {
     "criteria": {
-      "has_item_trash_can": "2025-06-01 06:44:28 +0000"
+      "alloy_reinforced": "2025-06-01 06:45:14 +0000"
     },
     "done": true
   },
-  "evilcraft:first_age": {
+  "mekanism:infused_alloy": {
     "criteria": {
-      "criteria_0": "2025-06-01 06:44:10 +0000"
+      "alloy_infused": "2025-06-01 06:45:14 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:root": {
+    "criteria": {
+      "ars_nouveau:worn_notebook": "2025-06-01 06:45:15 +0000"
     },
     "done": true
   },
@@ -1268,9 +1284,9 @@
     },
     "done": true
   },
-  "betterdungeons:skeleton_dungeon": {
+  "naturesaura:vacuum_bottle": {
     "criteria": {
-      "in_better_skeleton_dungeon": "2025-06-01 06:17:44 +0000"
+      "bottle": "2025-06-01 06:45:17 +0000"
     },
     "done": true
   },
@@ -1280,9 +1296,33 @@
     },
     "done": true
   },
-  "create:precision_mechanism": {
+  "naturesaura:positive_imbalance": {
     "criteria": {
-      "0": "2025-06-01 06:44:42 +0000"
+      "triggered_in_code": "2025-06-15 08:36:20 +0000"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2025-06-15 09:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-06-15 08:39:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-06-15 09:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-06-15 09:13:17 +0000"
     },
     "done": true
   },
