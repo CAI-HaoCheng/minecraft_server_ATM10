@@ -1570,5 +1570,35 @@
     },
     "done": true
   },
+  "pneumaticcraft:etchacid_bucket": {
+    "criteria": {
+      "0": "2025-06-21 14:13:15 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:unassembled_pcb": {
+    "criteria": {
+      "0": "2025-06-21 14:16:33 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:printed_circuit_board": {
+    "criteria": {
+      "0": "2025-06-21 14:21:31 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:advanced_pressure_tube": {
+    "criteria": {
+      "0": "2025-06-21 15:25:07 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:assembly_controller": {
+    "criteria": {
+      "0": "2025-06-21 14:55:44 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
