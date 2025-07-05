@@ -476,6 +476,7 @@
       "minecraft:swamp": "2025-05-09 14:17:16 +0000",
       "minecraft:birch_forest": "2025-05-09 15:27:34 +0000",
       "minecraft:windswept_hills": "2025-04-30 16:08:25 +0000",
+      "minecraft:windswept_savanna": "2025-07-05 08:41:42 +0000",
       "minecraft:plains": "2025-05-07 15:17:45 +0000"
     },
     "done": false
@@ -734,7 +735,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2025-05-01 05:38:17 +0000"
+      "minecraft:soul_sand_valley": "2025-05-01 05:38:17 +0000",
+      "minecraft:nether_wastes": "2025-07-05 08:53:47 +0000"
     },
     "done": false
   },
@@ -1167,6 +1169,7 @@
   },
   "repurposed_structures:outposts": {
     "criteria": {
+      "in_outpost_nether_brick": "2025-07-05 09:01:40 +0000",
       "in_outpost_oak": "2025-05-09 15:41:16 +0000"
     },
     "done": false
@@ -1588,15 +1591,45 @@
     },
     "done": true
   },
+  "pneumaticcraft:assembly_controller": {
+    "criteria": {
+      "0": "2025-06-21 14:55:44 +0000"
+    },
+    "done": true
+  },
   "pneumaticcraft:advanced_pressure_tube": {
     "criteria": {
       "0": "2025-06-21 15:25:07 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:assembly_controller": {
+  "pneumaticcraft:flight": {
     "criteria": {
-      "0": "2025-06-21 14:55:44 +0000"
+      "0": "2025-07-05 08:39:01 +0000"
+    },
+    "done": true
+  },
+  "ars_additions:find_ruined_portal": {
+    "criteria": {
+      "find_ruined_portal": "2025-07-05 08:02:42 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pneumatic_armor": {
+    "criteria": {
+      "0": "2025-07-05 07:56:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-05 07:39:20 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:fly_into_wall": {
+    "criteria": {
+      "0": "2025-07-05 08:58:10 +0000"
     },
     "done": true
   },
